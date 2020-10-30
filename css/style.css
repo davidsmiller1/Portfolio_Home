@@ -1,0 +1,489 @@
+/* Body */
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+/* Typography */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue", sans-serif;
+    color:#1C3059;
+    font-weight: 400;
+    letter-spacing: 0.03125em;
+  }
+  
+  p {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #707070;
+    font-weight: 400;
+    font-size: 1.25em;
+    letter-spacing: 0.025em;
+  }
+
+  .sectionContent {
+    width: 86%;
+    margin: 3.5% 7% 3.5% 7%;
+  }
+
+  .sectionHeading {
+    text-align: left;
+    margin: 2% 0% 2% 0%;
+  }
+
+/* Navigation */
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background-color: #1C3059 !important;
+    background-size: cover;
+    box-shadow: 0em 0em .5em 0em rgba(0, 0, 0, 0.1), 0em 0em 2.5em 0em rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  
+  .navbar-brand img{
+    width: 50%;
+  }
+
+  .nav-item{
+    margin: 0 1em;
+  }
+
+  .dropdown-menu{
+    background-image: url('../images/transparency.png');
+    background-color: #1C3059;
+    background-color: cover;
+  }
+  
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #0000004d;
+  }
+  
+  .customNav a{
+    color: #f2f2f2 !important;
+    font-weight: 300;
+  }
+  
+  .navCTA {
+    font-size: 1em;
+  }
+  
+/* Landing Page */
+  .landingSection {
+    background-image: url("../images/Home2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    height: calc(100vh - 1em);
+    display: flex;
+    align-items: right;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .landingContent {
+    background-color: #0000004d;
+    height: 23em;
+    width: auto;
+    border: none;
+    border-radius: 0.5em;
+    padding: 4em 3em 3.5em 3em;
+    text-align: right;
+    margin-top: 15em;
+    margin-right: 0 !important;
+    margin-left: auto;
+  }
+
+  .landingContent h1 {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #E09F0D;
+    font-size: 2.7em;
+    font-weight: 500;
+    letter-spacing: 0.03125em;
+  }    
+
+  .landingContent h2 {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #f2f2f2;
+    font-size: 2em;
+    font-weight: 100;
+    letter-spacing: 0.25em;
+  }   
+
+  .landingContent h3 {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #f2f2f2;
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: 0.2em;
+    line-height: 2em;
+  }   
+
+  .landingButton {
+    background-color: transparent;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    text-transform: uppercase !important;
+    letter-spacing: 0.4em !important;
+    border-width: 1px !important;
+    border-color: #f2f2f2;
+    display: inline-flex;
+    width: 14em;
+    padding-left: 2em;
+    margin-top: 3em;
+  }
+  
+  .landingButton:hover {
+    background-color: #f2f2f2;
+    border-color: #f2f2f2 !important;
+    color: #1C3059;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase !important;
+    letter-spacing: 0.4em !important;
+    border-width: 1px !important;
+    border-color: #f2f2f2;
+    display: inline-flex;
+    width: 14em;
+    padding-left: 1.5em;
+    margin-top: 3em;
+  }
+
+  @media only screen and (max-width:768px){
+    .landingContent h1 {
+        font-size: 1.9em !important;
+    }    
+    
+    .landingContent h2 {
+        font-size: 1.7em !important;
+    }  
+
+    .landingContent h3 {
+        font-size: 1.3em !important;
+    }  
+
+    .landingSection {
+      height: auto;
+      width: auto;
+    }
+  } 
+
+/* About */
+  .aboutContent {
+    border: none;
+  }
+
+  .aboutText {
+    padding-left: 0 !important;
+  }
+
+  .aboutContent img {
+    padding: 1em;
+  }
+
+  .aboutButton:hover {
+    background-color: #1C3059;
+    color: #f2f2f2;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    text-transform: uppercase !important;
+    letter-spacing: 0.285em !important;
+    border-width: 2px !important;
+    border-color: #1C3059;
+    display: inline-flex;
+    width: 15em;
+    height: 4em;
+    padding-top: 1.1em;
+    padding-left: 2em;
+    margin: 1em 0em 1em 0em;
+  }
+  
+  .aboutButton {
+    background-color: transparent;
+    color: #1C3059;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase !important;
+    letter-spacing: 0.275em !important;
+    border-width: 2px !important;
+    border-color: #1C3059 !important;
+    display: inline-flex;
+    width: 15em;
+    height: 4em;
+    padding-top: 1.1em;
+    padding-left: 2em;
+    margin: 1em 0em 1em 0em;
+  }
+
+/* Quote */
+  .quoteSection {
+    width: 100%;
+    min-height: 18.75em;
+    background-image: url(../images/Quote\ Background.png);
+    border-style: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3em;
+  }  
+
+  .quoteBody {
+    margin: 0% 7% 0% 7%;
+  }
+
+  .quoteText {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .quoteIcon {
+    width: 6em;
+    float: left;
+  }
+
+  .quoteIcon img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .quoteText h2 {
+    color: #f2f2f2;
+    font-size: 2.5em;
+    font-weight: 300;
+    letter-spacing: 0.03125em;
+    text-align: left;
+    margin: 2% 0% 0% 0%;
+    width: 75%;
+    float: left;
+  }
+
+  .quoteText p {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #F2F2F2;
+    font-weight: 300;
+    font-size: 1.25em;
+    letter-spacing: 0.03125em;
+    text-align: right;
+    width: 80%;
+    padding: 1em;
+    float: left;
+  }
+
+  @media only screen and (max-width: 1427px){
+    .quoteText h2 {
+      width: 75%
+    }
+    .quotetext p {
+      font-size: 1em;
+    }
+  }  
+
+  @media only screen and (max-width: 1200px){
+    .quoteText h2 {
+      font-size: 2em;
+    }
+    .quotetext p {
+      font-size: 1em;
+    }
+  }  
+
+  @media only screen and (max-width: 992px){
+    .quoteText h2 {
+      font-size: 1.5em;
+    }
+  }  
+
+/* Services */
+  .valueProp {
+    align-content: center;
+    justify-content: left;
+    margin: 2em 0em 2em 0em;
+  }
+
+  .sideAccent {
+    background: #1C3059;
+    width: .25em;
+  }
+  
+  .imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imageContainer img {
+    width: 100%;
+    max-width: 6em;
+  }
+
+  .servicesButton:hover {
+    background-color: #1C3059;
+    color: #f2f2f2;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    text-transform: uppercase !important;
+    letter-spacing: 0.285em!important;
+    border-width: 2px !important;
+    border-color: #1C3059;
+    display: inline-flex;
+    width: 15em;
+    height: 4em;
+    padding-top: 1.1em;
+    padding-left: 2em;
+    margin: 1em 0em 1em 0em;
+  }
+  
+  .servicesButton {
+    background-color: transparent;
+    color: #1C3059;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase !important;
+    letter-spacing: 0.275em !important;
+    border-width: 2px !important;
+    border-color: #1C3059 !important;
+    display: inline-flex;
+    width: 15em;
+    height: 4em;
+    padding-top: 1.1em;
+    padding-left: 2em;
+    margin: 1em 0em 1em 0em;
+  }
+
+/* Projects */
+  .projectDeck {
+    margin: 0 !important;
+  }
+
+  .projectContainer {
+    text-align: center;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+    margin: 1.5em 0em 1.5em 0em;
+  }
+  
+  .projectCard {
+    width: 100% !important;
+    height: auto !important;
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .projectText {
+    margin: 1em 0em 1em 0em;
+  }
+  
+  .buttonContainer {
+    margin: 1em 0em 1em 0em;
+  }
+
+  .projectButton:hover {
+    background-color: #1C3059;
+    color: #f2f2f2;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    text-transform: uppercase !important;
+    letter-spacing: 0.285em !important;
+    border-width: 2px !important;
+    border-color: #1C3059;
+    display: inline-flex;
+    width: 15em;
+    height: 4em;
+    padding-top: 1.1em;
+    padding-left: 2em;
+    margin: 1em 0em 1em 0em;
+  }
+  
+  .projectButton {
+    background-color: transparent;
+    color: #1C3059;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase !important;
+    letter-spacing: 0.275em !important;
+    border-width: 2px !important;
+    border-color: #1C3059 !important;
+    display: inline-flex;
+    width: 15em;
+    height: 4em;
+    padding-top: 1.1em;
+    padding-left: 2em;
+    margin: 1em 0em 1em 0em;
+  }
+
+/* Contact */
+  .contactDeck {
+    margin: 0 !important;
+  }
+
+  .contactRow {
+    width: 100%;
+    margin: 1.5em 0em 0em 0em;
+  }
+
+  .contactContainer {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1.5em 0em 0em 0em;
+  }
+  
+  .contactCard {
+    width: 100%;
+    height: 100%;
+    border: none !important;
+    text-align: center;
+  }
+
+  .contactImage {
+    height: 5em;
+    max-height: 5em;
+  }
+
+  .contactCard img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 5em;
+  }
+
+  .contactBody {
+    width: 10em;
+    height: 10em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* Footer */
+  .footer {
+    position: center;
+    width: 100%;
+    height: 5em;
+    background-color: #1C3059;
+    margin-top: 4em;
+    padding: 1em 0em 1em 0em;
+  }
+
+  .footer h5 {
+    color: #F2F2F2;
+    text-align: center;
+
+  }
