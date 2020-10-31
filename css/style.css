@@ -6,12 +6,13 @@ body {
 
 .sectionHeading {
   text-align: left;
-  margin: 2% 0% 2% 0%;
+  margin-top: 4.5em;
+  margin-bottom: 1em;
 }
 
 .sectionContent {
   width: 86%;
-  margin: 3.5% 7% 3.5% 7%;
+  margin: 3.5% 7% 0% 7%;
 }
 
 /* Typography */
@@ -34,6 +35,7 @@ body {
   .customNav {
     position: fixed;
     width: 100%;
+    padding: .4% 7% .4% 7%;
     background-color: #1C3059 !important;
     background-size: cover;
     box-shadow: 0em 0em .5em 0em rgba(0, 0, 0, 0.1), 0em 0em 2.5em 0em rgba(0, 0, 0, 0.1);
@@ -51,6 +53,18 @@ body {
 
   .nav-item{
     margin: 0 1em;
+  }
+
+  .dropdown-menu{
+    background-image: url('../images/transparency.png');
+    background-color: #1C3059;
+    background-color: cover;
+  }
+  
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #0000004d;
   }
 
   .customNav a{
@@ -86,7 +100,7 @@ body {
     border-radius: 0.5em;
     padding: 4em 3em 3.5em 3em;
     text-align: right;
-    margin-top: 15em;
+    margin-top: 10em;
     margin-right: 0 !important;
     margin-left: auto;
   }
@@ -224,7 +238,7 @@ body {
     border-style: none;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 3em;
+    padding-top: 4em;
   }  
 
   .quoteBody {
@@ -248,12 +262,12 @@ body {
 
   .quoteText h2 {
     color: #f2f2f2;
-    font-size: 2.5em;
+    font-size: 2.3em;
     font-weight: 300;
     letter-spacing: 0.03125em;
     text-align: left;
-    margin: 2% 0% 0% 0%;
-    width: 75%;
+    margin: 2.5% 0% 0% 0%;
+    width: 85%;
     float: left;
   }
 
@@ -270,9 +284,6 @@ body {
   }
 
   @media only screen and (max-width: 1427px){
-    .quoteText h2 {
-      width: 75%
-    }
     .quotetext p {
       font-size: 1em;
     }
@@ -386,6 +397,48 @@ body {
     padding-top: .5em;
     padding-left: 2em;
     margin: 1em 0em 1em 0em;
+  }
+
+/* Social Impact */
+  .impactSection {
+    background-color: #1C3059;
+    width: 86%;
+    margin: 3.5% 7% 0% 7%;
+    padding: 1em;
+  }
+
+  .impactHeading {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    color: #f2f2f2;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .impactDeck {
+    background-color: #1C3059;
+    margin-bottom: 1em;
+  }
+
+  .impactCard {
+    border: none;
+    background-color: #1C3059;
+  }
+
+  .impactCard img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 6em;
+    padding: 1em;
+    background-color: #1C3059;
+    border-radius: 50%;
+    border: 1px solid #f2f2f2;
+  }
+
+  .impactCard p {
+    color: #f2f2f2 !important;
+    text-align: center;
   }
 
 /* Projects */
