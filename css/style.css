@@ -1,8 +1,18 @@
 /* Body */
 body {
-    margin: 0px;
-    padding: 0px;
-  }
+  margin: 0px;
+  padding: 0px;
+}
+
+.sectionHeading {
+  text-align: left;
+  margin: 2% 0% 2% 0%;
+}
+
+.sectionContent {
+  width: 86%;
+  margin: 3.5% 7% 3.5% 7%;
+}
 
 /* Typography */
   h1, h2, h3, h4, h5, h6 {
@@ -18,16 +28,6 @@ body {
     font-weight: 400;
     font-size: 1.25em;
     letter-spacing: 0.025em;
-  }
-
-  .sectionContent {
-    width: 86%;
-    margin: 3.5% 7% 3.5% 7%;
-  }
-
-  .sectionHeading {
-    text-align: left;
-    margin: 2% 0% 2% 0%;
   }
 
 /* Navigation */
@@ -53,21 +53,12 @@ body {
     margin: 0 1em;
   }
 
-  .dropdown-menu{
-    background-image: url('../images/transparency.png');
-    background-color: #1C3059;
-    background-color: cover;
-  }
-  
-  .dropdown-item:focus, .dropdown-item:hover {
-    color: #16181b;
-    text-decoration: none;
-    background-color: #0000004d;
-  }
-  
   .customNav a{
-    color: #f2f2f2 !important;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1em;
     font-weight: 300;
+    color: #f2f2f2 !important;
+    letter-spacing: 0.025em;
   }
   
   .navCTA {
@@ -361,6 +352,42 @@ body {
     margin: 1em 0em 1em 0em;
   }
 
+  .allProjectsButton:hover {
+    background-color: #1C3059;
+    color: #f2f2f2;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    text-transform: uppercase !important;
+    letter-spacing: 0.285em!important;
+    border-width: 2px !important;
+    border-color: #1C3059;
+    display: inline-flex;
+    width: 15em;
+    height: 4em;
+    padding-top: .5em;
+    padding-left: 2em;
+    margin: 1em 0em 1em 0em;
+  }
+  
+  .allProjectsButton {
+    background-color: transparent;
+    color: #1C3059;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase !important;
+    letter-spacing: 0.275em !important;
+    border-width: 2px !important;
+    border-color: #1C3059 !important;
+    display: inline-flex;
+    width: 15em;
+    height: 4em;
+    padding-top: .5em;
+    padding-left: 2em;
+    margin: 1em 0em 1em 0em;
+  }
+
 /* Projects */
   .projectDeck {
     margin: 0 !important;
@@ -485,5 +512,4 @@ body {
   .footer h5 {
     color: #F2F2F2;
     text-align: center;
-
   }
