@@ -238,6 +238,7 @@ body {
     border-style: none;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 3em 0em 0em 0em;
     padding-top: 4em;
   }  
 
@@ -401,10 +402,17 @@ body {
 
 /* Social Impact */
   .impactSection {
-    background-color: #1C3059;
-    width: 86%;
-    margin: 3.5% 7% 0% 7%;
-    padding: 1em;
+    width: 100%;
+    min-height: 18.75em;
+    background-image: url(../images/Social\ Impact\ Background.png);
+    border-style: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 3em 0em 0em 0em;
+    padding-top: 2em;
+    padding-right: 7%;
+    padding-bottom: 2em;
+    padding-left: 7%
   }
 
   .impactHeading {
@@ -414,16 +422,19 @@ body {
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
+    font-size: 2.3em;
+    font-weight: 300;
+    letter-spacing: 0.03125em;
   }
   
   .impactDeck {
-    background-color: #1C3059;
+    background-color: transparent;
     margin-bottom: 1em;
   }
 
   .impactCard {
     border: none;
-    background-color: #1C3059;
+    background-color: transparent;
   }
 
   .impactCard img {
@@ -431,14 +442,18 @@ body {
     margin-right: auto;
     max-width: 6em;
     padding: 1em;
-    background-color: #1C3059;
+    background-color: transparent;
     border-radius: 50%;
-    border: 1px solid #f2f2f2;
+    border: 2px solid #f2f2f2;
   }
 
   .impactCard p {
     color: #f2f2f2 !important;
     text-align: center;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    font-size: 1.25em;
+    letter-spacing: 0.025em;
   }
 
 /* Projects */
@@ -552,17 +567,91 @@ body {
     margin-right: auto;
   }
 
+/* Testimonial */
+.testimonialSection {
+  width: 100%;
+  min-height: 18.75em;
+  background-image: url(../images/Midwest\ Media\ Background.png);
+  border-style: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 3em 0em 0em 0em;
+  padding-top: 4em;
+}  
+
+.testimonialBody {
+  margin: 0% 7% 0% 7%;
+}
+
+.testimonialText {
+  width: 100%;
+  display: inline-block;
+}
+
+.quoteIcon {
+  width: 6em;
+  float: left;
+}
+
+.quoteIcon img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.testimonialText h2 {
+  color: #f2f2f2;
+  font-size: 2.3em;
+  font-weight: 300;
+  letter-spacing: 0.03125em;
+  text-align: left;
+  margin: 2.5% 0% 0% 0%;
+  width: 85%;
+  float: left;
+}
+
+.testimonialText p {
+  font-family: "Helvetica Neue", sans-serif;
+  color: #F2F2F2;
+  font-weight: 300;
+  font-size: 1.25em;
+  letter-spacing: 0.03125em;
+  text-align: right;
+  width: 80%;
+  padding: 1em;
+  float: left;
+}
+
 /* Footer */
   .footer {
-    position: center;
     width: 100%;
-    height: 5em;
+    height: auto;
     background-color: #1C3059;
     margin-top: 4em;
-    padding: 1em 0em 1em 0em;
   }
 
-  .footer h5 {
-    color: #F2F2F2;
-    text-align: center;
+  .copyrightText {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    justify-content: center;
+    display: flex;
+  }
+
+  .copyrightIcon {
+    width: 2em;
+    margin-left: auto;
+    padding-bottom: .75em;
+  }
+
+  .copyrightIcon img {
+    max-width: 1em;
+  }
+  
+  .copyrightText p {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #f2f2f2;
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 0.025em;
+    margin-right: auto;
   }
